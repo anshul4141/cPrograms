@@ -5,7 +5,7 @@ void main()
     char buffer[100]; // Buffer to hold data read from the file
 
     // Open the file in read mode. "r" means reading, and if the file doesn't exist, fopen will return NULL.
-    FILE *file = fopen("D:\\example.txt", "r");
+    FILE *file = fopen("D:\\mayank.txt", "r");
 
     // Check if the file was opened successfully. If not, print an error message and exit the program.
     if (file == NULL)
@@ -22,5 +22,4 @@ void main()
 
     // Close the file after reading is done
     fclose(file);
-
 }
