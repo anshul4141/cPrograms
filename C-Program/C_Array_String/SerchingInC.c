@@ -15,7 +15,7 @@ int linearSearch(int arr[], int n, int x)
 void main()
 {
     int arr[] = {2, 3, 4, 10, 40};
-    int x = 11;
+    int x = 4;
 
     int n = sizeof(arr) / sizeof(arr[0]);
 
